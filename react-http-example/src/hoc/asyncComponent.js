@@ -12,7 +12,7 @@ const asyncComponent = (importComponent) => {
                     this.setState({component: cmp.default});
                 });
         }
-        
+
         render () {
             const C = this.state.component;
 
@@ -20,5 +20,4 @@ const asyncComponent = (importComponent) => {
         }
     }
 }
-
 export default asyncComponent;
